@@ -1,0 +1,130 @@
+body{
+  background-color: black;
+  opacity: 0;
+  transition: filter 1s ease,opacity 1s ease;
+  filter: blur(10px);
+}
+body.loaded{
+opacity: 1;
+filter: blur(0);
+}
+.inner-head{
+    color: black;
+    background-color:rgb(253, 2, 2);
+    width: auto;
+    font-size: 40px;
+    border-radius: 40px;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 20px;
+    text-align: center;
+}
+.topnav {
+    overflow: hidden;
+    background-color:silver;
+    border-radius: 20px;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  .middle{
+    size: 20px;
+    color: white;
+  }
+  .card1{
+    width: 647px;
+    height: 250px;
+    background-color: rgb(5, 250, 229);
+    display: inline-table;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 5px;
+    letter-spacing: 2px;
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .card2{
+    width: 647px;
+    height: 250px;
+    background-color: rgb(247, 181, 0);
+    display: inline-table;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 5px;
+    letter-spacing: 2px;
+    float: right;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .card-img1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+  border-radius: 10px;
+  }
+  .card-title1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+  }
+  .card-genres1{
+    font-size: 15px;
+    color: black;
+    margin-left: 4px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    text-align: center;
+  }
+  .card-img2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    border-radius: 10px;
+    }
+    .card-title2{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: black;
+      font-size: 30px;
+      text-align: center;
+    }
+    .card-genres2{
+      font-size: 15px;
+      margin-left: 4px;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+      color: black;
+      text-align: center;
+    }
+  .video{
+    float: right;
+    margin-right: 200px;
+    border: solid rgb(1, 215, 243);
+    border-style:double;
+    border-width: 5px;
+  }
+  .inside-card{
+    text-decoration: none;
+  }
+  
