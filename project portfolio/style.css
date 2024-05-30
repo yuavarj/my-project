@@ -1,0 +1,119 @@
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    margin-top: 0px;
+    display: flex;
+}
+
+nav ul li {
+    text-align: right;
+    float: right;
+}
+
+nav ul li a {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li ul {
+    display: block;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+
+nav a:hover{
+    color: white;
+    background-color: black;
+}
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    float: right;
+}
+
+.middle1{
+    align-items: center;
+    display:inline-block ;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.inner{
+    align-items: center;
+    display:inline-block ;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 200px;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.main-text2{
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+    animation: blink 4s infinite;
+}
+
+body{
+    background-color: soft rgb(245, 221, 220);
+    font-family: 'Poppins', sans-serif;
+}
+
+.img1{
+    float: right;
+    width: 300px;
+    height: 300px;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+p{
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+}
+
+p a{
+    text-decoration: none;
+}
+
+p img{
+    width: 70px;
+    height: 60px;
+    display: block;
+    justify-content: center;
+    border-radius: 100px;
+}
